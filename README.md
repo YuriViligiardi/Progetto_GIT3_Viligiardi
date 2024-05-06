@@ -7,16 +7,16 @@ Fondamentale è sapere **sincronizzare il nostro lavoro locale con un repository
 
 *Comandi principali:*
 
-<pre> git remote -v </pre> --> visualizza i server remoti collegati al nostro repository
+**git remote -v** --> visualizza i server remoti collegati al nostro repository
 
 ## Aggiungere o rimuovere un repositori remoto
 
-<pre> **git remote add <nome> <url>** </pre>
+**git remote add "nome" "url"**
 
 ## Caricare il lavoro locale sul repository remoto
 
-<pre> git push <remote> <ramo-locale> </pre>
+**git push "remote" "ramo-locale"**
 
 ## Aggiornare la copia locale del repository, alliniandola con la versione remota
 
-<pre> git pull <remote> <ramo-locale> </pre>
+**git pull "remote" "ramo-locale"**
